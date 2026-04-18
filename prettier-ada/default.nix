@@ -17,7 +17,7 @@ stdenv.mkDerivation {
 
   src = fetchGit {
     url = "https://github.com/AdaCore/prettier-ada";
-    ref = "25.0";
+
     rev = "26b003699e2ef31baa9a95ce9313b4bde6efe701";
   };
 

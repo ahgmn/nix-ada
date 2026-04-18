@@ -19,7 +19,7 @@ buildPythonPackage rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/langkit.git";
-    ref = "main";
+
     rev = "bac25208b802112eb13f09967ddf4ee0e432aab6";
   };
 

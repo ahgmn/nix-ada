@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/ada_language_server.git";
-    ref = "main";
+
     rev = "f235f86da547e8170789f36d22d78c9379096a19";
   };
 

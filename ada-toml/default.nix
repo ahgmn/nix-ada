@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/pmderodat/ada-toml.git";
-    ref = "v0.5";
+
     rev = "e760110ad2b5b776a44dace31b8421532e429fbb";
   };
   

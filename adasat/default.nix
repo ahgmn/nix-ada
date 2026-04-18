@@ -10,7 +10,7 @@ stdenv.mkDerivation {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/AdaSAT.git";
-    ref = "main";
+
     rev = "01e9a19b61ba785878862b8bce5ae8145018ef01";
   };
   

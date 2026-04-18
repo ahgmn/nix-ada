@@ -19,7 +19,7 @@ stdenv.mkDerivation {
   src = fetchGit {
     url = "https://github.com/AdaCore/aws.git";
     submodules = true;
-    ref = "main";
+
     rev = "8e5dfe946b1334c93f0efb13bb4dff171a480cd3";
   };
 

@@ -13,7 +13,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/gnatformat.git";
-    ref = "v26.0.0";
+
     rev = "976b276ba6910b535c740b392ca4f2df877a6c75";
   };
   

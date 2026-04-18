@@ -11,7 +11,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/vss-text.git";
-    ref = "main";
+
     rev = "652cc8bb555c8f9e1636e32006f827a01e2a9ff1";
   };
   

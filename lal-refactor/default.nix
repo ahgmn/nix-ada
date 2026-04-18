@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/lal-refactor.git";
-    ref = "edge";
+
     rev = "2e1a0b61fc228efa3e2c6aa9eb3a0388d372361c";
   };
 

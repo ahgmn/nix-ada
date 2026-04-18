@@ -13,7 +13,7 @@ stdenv.mkDerivation {
 
   src = fetchGit {
     url = "https://github.com/AdaCore/PolyORB.git";
-    ref = "main";
+
     rev = "3491a972ef22a5165a4bfd6c3231dc9fd0360b8f";
   };
 

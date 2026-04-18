@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/vss-extra.git";
-    ref = "main";
+
     rev = "f52c33dcc503029af4dbe98f24b4fc5800570a7d";
   };
   

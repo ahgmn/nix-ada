@@ -13,7 +13,7 @@ stdenv.mkDerivation {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/ada_libfswatch.git";
-    ref = "26.1";
+
     rev = "838480d8fca344d9f8a78341113ceb4ed5cf2222";
   };
   

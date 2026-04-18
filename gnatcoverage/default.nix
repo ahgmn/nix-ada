@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/gnatcoverage.git";
-    ref = "main";
+
     rev = "af2b6394255e4c7058c1b8c52e19f8801633a962";
   };
 
