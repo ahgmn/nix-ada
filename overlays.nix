@@ -11,7 +11,7 @@
       version = "26.0.0-20260112";
       src = fetchGit {
          url = "https://github.com/AdaCore/gnatcoll-core.git";
-         ref = "master";
+         ref = "main";
          rev = "32967c2123f0cb7d36dfc5372ab6b4891e0fadcf";
       };
  
@@ -35,7 +35,7 @@
       version = "26.0.0-20260112";
       src = fetchGit {
         url = "https://github.com/AdaCore/gpr";
-        ref = "master";
+        ref = "main";
         rev = "d34ee9879d7bd086a5989aa9cd78a8d9aa31c829";
       };
 

@@ -4,7 +4,7 @@ rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/gnatdoc.git";
-    ref = "refs/tags/master";
+    ref = "refs/tags/main";
     rev = "60140b00d2d1f63ae80328b29db8944be90b7773";
   };
 }

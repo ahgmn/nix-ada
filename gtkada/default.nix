@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/gtkada.git";
-    ref = "master";
+    ref = "main";
     rev = "2ace55222984aca383e68f13567988214dd43d4b";
   };
 

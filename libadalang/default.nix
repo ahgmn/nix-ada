@@ -17,7 +17,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/libadalang.git";
-    ref = "master";
+    ref = "main";
     rev = "b232352be79d5eec9a1c72727634b19a52d62e07";
   };
 

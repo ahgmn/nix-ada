@@ -38,7 +38,7 @@ stdenv.mkDerivation rec {
   
   src = fetchGit {
     url = "https://github.com/AdaCore/gnatstudio.git";
-    ref = "master";
+    ref = "main";
     rev = "1c2f3eab14871884fa532651345ae5546192ddd0";
   };
 
